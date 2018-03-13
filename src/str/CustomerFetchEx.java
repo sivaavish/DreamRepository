@@ -21,6 +21,7 @@ public class CustomerFetchEx {
         sf=cfg.buildSessionFactory();
         session=sf.openSession();
         System.out.println("testing");
+        System.out.println("Git Testing");
     }
 
     public static void main(String args[]){
